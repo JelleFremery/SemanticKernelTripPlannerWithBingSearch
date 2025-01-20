@@ -1,8 +1,6 @@
 ﻿using System.Text;
 using Microsoft.Extensions.Logging;
-using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.ChatCompletion;
-using Microsoft.SemanticKernel.Connectors.OpenAI;
 using SemanticKernel.Console.DI.Domain;
 using ConsoleApp = System.Console;
 
@@ -12,7 +10,7 @@ public class Runner(ILogger<Runner> logger, IKernelChatService kernelChatService
 {
     public async Task Start()
     {
-        logger.LogInformation("Hello, World!");
+        logger.LogInformation("Runner start");
 
         //Create a persona by using the system message
         ChatHistory chatMessages = new(systemMessage: """
@@ -54,5 +52,7 @@ public class Runner(ILogger<Runner> logger, IKernelChatService kernelChatService
             ConsoleApp.WriteLine("\n--------------------------------------------------------------");
         }
         while (userInput != null);
+
+        logger.LogInformation("Runner end");
     }
 }
