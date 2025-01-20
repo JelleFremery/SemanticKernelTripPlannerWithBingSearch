@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console.Charge", "SemanticKernel.Console\SemanticKernel.Console.Charge.csproj", "{6398E021-5F03-4B63-8DE5-3272ADC666B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console.Trip", "SemanticKernel.Console.Trip\SemanticKernel.Console.Trip.csproj", "{2DC2B27F-9C44-4FE6-A09A-6D79A204A725}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Common", "SemanticKernel.Common\SemanticKernel.Common.csproj", "{21443877-9676-44AA-9196-CC004D65AD61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Plugin Demo", "1. Plugin Demo", "{46F65A08-95AF-4E27-98D6-966F6F1E4579}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. DI Demo", "3. DI Demo", "{F55A9532-626A-45C1-9431-FE14ADB3ECED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Agent Demo", "2. Agent Demo", "{E7BD3855-6CB6-4B36-A87A-23229106756E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Config demo", "0. Config demo", "{BE217A58-6F49-4E95-B6E0-04DC445B55EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console.Config", "SemanticKernel.Console.Config\SemanticKernel.Console.Config.csproj", "{87C1A92E-B47A-43A4-8598-A306FCA09D7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console.DI", "SemanticKernel.Console.DI\SemanticKernel.Console.DI.csproj", "{BF322073-1C59-43D4-880C-6E16CCC2D242}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6398E021-5F03-4B63-8DE5-3272ADC666B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6398E021-5F03-4B63-8DE5-3272ADC666B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6398E021-5F03-4B63-8DE5-3272ADC666B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6398E021-5F03-4B63-8DE5-3272ADC666B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC2B27F-9C44-4FE6-A09A-6D79A204A725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC2B27F-9C44-4FE6-A09A-6D79A204A725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC2B27F-9C44-4FE6-A09A-6D79A204A725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC2B27F-9C44-4FE6-A09A-6D79A204A725}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21443877-9676-44AA-9196-CC004D65AD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21443877-9676-44AA-9196-CC004D65AD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21443877-9676-44AA-9196-CC004D65AD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21443877-9676-44AA-9196-CC004D65AD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C1A92E-B47A-43A4-8598-A306FCA09D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C1A92E-B47A-43A4-8598-A306FCA09D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C1A92E-B47A-43A4-8598-A306FCA09D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C1A92E-B47A-43A4-8598-A306FCA09D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF322073-1C59-43D4-880C-6E16CCC2D242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF322073-1C59-43D4-880C-6E16CCC2D242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF322073-1C59-43D4-880C-6E16CCC2D242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF322073-1C59-43D4-880C-6E16CCC2D242}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6398E021-5F03-4B63-8DE5-3272ADC666B0} = {46F65A08-95AF-4E27-98D6-966F6F1E4579}
+		{2DC2B27F-9C44-4FE6-A09A-6D79A204A725} = {E7BD3855-6CB6-4B36-A87A-23229106756E}
+		{87C1A92E-B47A-43A4-8598-A306FCA09D7C} = {BE217A58-6F49-4E95-B6E0-04DC445B55EA}
+		{BF322073-1C59-43D4-880C-6E16CCC2D242} = {F55A9532-626A-45C1-9431-FE14ADB3ECED}
+	EndGlobalSection
+EndGlobal
